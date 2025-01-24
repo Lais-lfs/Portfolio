@@ -35,6 +35,13 @@
             "Empatia"   
         ]
     },
+    "education": [
+        {
+           "institution": "Pontifícia Universidade Católica de Minas Gerais (PUC Minas)",
+           "course": "Sistemas de Informação",
+           "period": "2023 - Previsão de conclusão: 2026/2"
+        }
+    ],
     "languages": [
         "Português BR",
         "Inglês (intermediário)"
