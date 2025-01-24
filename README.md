@@ -16,7 +16,7 @@ Você pode acessar o portfólio por meio do link: [https://lais-lfs.github.io/Po
 - **Experiências de trabalho** na área de tecnologia, com informações sobre o cargo, empresa, período e breve descrição das tarefas realizadas.
 - **Idiomas** falados de forma clara.
 <!-- - **Contato** para facilitar conexões via redes sociais ou e-mail. -->
-<img src="./assets/img/portfólio-mobile.png" alt="drawing" height="500px"/><img src="./assets/img/portfólio.png" alt="drawing" height="500px"/>
+<img src="./assets/img/portfólio-mobile.png" alt="drawing" height="450px"/><img src="./assets/img/portfólio.png" alt="drawing" height="450px"/>
 
 
 ## 🛠️ Tecnologias Utilizadas
