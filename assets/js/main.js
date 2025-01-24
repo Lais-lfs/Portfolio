@@ -32,6 +32,19 @@ function updateHardSkills(profileData) {
                                 <img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('');
 }
 
+function updateEducation(profileData) {
+    const education = document.getElementById("profile.education");
+    education.innerHTML = profileData.education.map(information => {
+        return `
+            <li>
+                <h3>${information.institution}</h3>
+                <h4>${information.course}</h4>
+                <span class="period">${information.period}</span>
+            </li>            
+            `;
+    }).join('');
+}
+
 function updateLanguages(profileData) {
     const languages = document.getElementById("languages");
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
@@ -72,4 +85,5 @@ function updateProfessionalExperience(profileData) {
     updateLanguages(profileData);
     updatePortfolio(profileData);
     updateProfessionalExperience(profileData);
+    updateEducation(profileData);
 })()
